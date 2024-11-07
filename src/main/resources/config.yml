@@ -1,3 +1,4 @@
 webhook-url: "YOUR-WEBHOOK" # add your discord webhook url
-log-file: "player_logs.txt" # file to log to
+log-file: "player_logs.txt" # file to log uuid's too
 vpn-user-id: "YOUR-USERNAME" # replace with the username of the admin you want to ping when a user is detacted using a vpn
+enable-vpn-check: false  # Set to true or false to enable/disable VPN checking. Automaticly disabled!
