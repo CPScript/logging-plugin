@@ -1,0 +1,13 @@
+name: User-Logger
+version: 1.0
+main: com.Disease.userloggingplugin.UserLoggingPlugin
+api-version: 1.16
+description: A plugin to log player information and send it to a Discord channel. Implemented for security reasons.
+commands:
+  log:
+    description: Reloads the plugin configuration.
+    usage: /log reload
+permissions:
+  myloggingplugin.reload:
+    description: Allows reloading the plugin configuration.
+    default: op
